@@ -43,5 +43,5 @@ def generate_diff(file_path1, file_path2):
 
 
 if __name__ == '__main__':
-    print(generate_diff('/Users/daniilbagaturia/python-project-50/file_dir/file1.json',
-                        '/Users/daniilbagaturia/python-project-50/file_dir/file2.json'))
+    print(generate_diff('/.github/test/fixtures/file1.json',
+                        '/.github/test/fixtures/file2.json'))

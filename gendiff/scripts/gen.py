@@ -1,11 +1,7 @@
 #!/usr/bin/env python3
 
-from gendiff.gendiff import run_parser
+from gendiff.gendiff import parser_args
 
 
 def main():
-    run_parser()
-
-
-if __name__ == '__main__':
-    main()
+    parser_args()

@@ -14,6 +14,6 @@ def test_generate_diff():
         get_fixtures_data('file2.json'))
 
     expected = get_fixtures_data(
-        'file_ans.json')
+        'file_ans')
 
     assert res == expected

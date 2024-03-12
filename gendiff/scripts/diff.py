@@ -5,8 +5,8 @@ from gendiff.gendiff import generate_diff
 
 def main():
     if __name__ == '__main__':
-        generate_diff('/Users/daniilbagaturia/python-project-50/file_dir/file1.json',
-                      '/Users/daniilbagaturia/python-project-50/file_dir/file2.json')
+        generate_diff('/.github/test/fixtures/file1.json',
+                      '/.github/test/fixtures/file2.json')
 
 
 if __name__ == '__main__':

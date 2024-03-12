@@ -7,7 +7,3 @@ def main():
     if __name__ == '__main__':
         generate_diff('/.github/test/fixtures/file1.json',
                       '/.github/test/fixtures/file2.json')
-
-
-if __name__ == '__main__':
-    main()

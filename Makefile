@@ -4,5 +4,5 @@ install:
 lint:
 	poetry run flake8 gendiff
 
-pytest:
+test:
 	poetry run pytest

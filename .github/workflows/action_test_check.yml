@@ -16,6 +16,7 @@ jobs:
       - run: pip install poetry
       - run: make install
       - run: make test
+      - run: make tests-coverage
       - run: make lint
       - name: Test & publish code coverage
         uses: paambaati/codeclimate-action@v5.0.0

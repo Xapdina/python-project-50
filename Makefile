@@ -8,4 +8,4 @@ tests:
 	poetry run pytest
 
 test-coverage:
-	poetry run pytest
+	poetry run pytest --cov=gendiff --cov-report yml

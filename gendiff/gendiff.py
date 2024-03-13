@@ -26,8 +26,3 @@ def generate_diff(file_path1, file_path2):
     stail_diff = "\n ".join(diff)
 
     return f'{{\n {stail_diff}\n}}'
-
-
-if __name__ == '__main__':
-    print(generate_diff('/.github/tests/fixtures/file1.json',
-                        '/.github/tests/fixtures/file2.json'))

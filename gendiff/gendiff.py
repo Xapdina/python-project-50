@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-import argparse
 import json
 
 
@@ -30,5 +29,5 @@ def generate_diff(file_path1, file_path2):
 
 
 if __name__ == '__main__':
-    print(generate_diff('/.github/test/fixtures/file1.json',
-                        '/.github/test/fixtures/file2.json'))
+    print(generate_diff('/.github/tests/fixtures/file1.json',
+                        '/.github/tests/fixtures/file2.json'))

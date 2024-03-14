@@ -15,9 +15,9 @@ def get_fixtures_data(file_name):
 
 @pytest.mark.parametrize('file1, file2, answer', [
     ('file1.json', 'file2.json', 'file_json_answer.txt'),
-    ('filepath1.yml', 'filepath2.yml', 'file_yml_answer.txt'),
+    ('file1.yaml', 'file2.yaml', 'file_yml_answer.txt'),
 ])
-def test_generate_diff_json(file1, file2, answer):
+def test_generate_diff(file1, file2, answer):
     res = generate_diff(
         get_fixtures_path(file1),
         get_fixtures_path(file2)

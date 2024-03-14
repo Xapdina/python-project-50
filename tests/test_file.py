@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import os
+import pytest
 from gendiff.gendiff import generate_diff
 
 
@@ -12,13 +13,17 @@ def get_fixtures_data(file_name):
         return f.read()
 
 
-def test_generate_diff_json():
+@pytest.mark.parametrize('file1, file2, answer', [
+    ('file1.json', 'file2.json', 'file_json_answer.txt'),
+    ('filepath1.yml', 'filepath2.yml', 'file_yml_answer.txt'),
+])
+def test_generate_diff_json(file1, file2, answer):
     res = generate_diff(
-        get_fixtures_path('file1.json'),
-        get_fixtures_path('file2.json')
+        get_fixtures_path(file1),
+        get_fixtures_path(file2)
     )
 
     expected = get_fixtures_data(
-        'file_json_answer.txt')
+        answer)
 
     assert res == expected

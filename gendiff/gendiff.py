@@ -38,8 +38,3 @@ def generate_diff(file_path1, file_path2):
             diff.append(f'   {key}: {to_str(value_data2)}')
 
     return '{\n' + '\n'.join(diff) + '\n}'
-
-
-if __name__ == '__main__':
-    print(generate_diff('/Users/daniilbagaturia/python-project-50/tests/fixtures/file1.yaml',
-                        '/Users/daniilbagaturia/python-project-50/tests/fixtures/file2.yaml'))

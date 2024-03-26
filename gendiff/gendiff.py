@@ -10,10 +10,10 @@ def get_file_format(file_path):
 
 
 def get_file(file_path):
-    extension = get_file_format(file_path)
+    format = get_file_format(file_path)
     with open(file_path) as file:
         data = file.read()
-        return file_parser(data, extension)
+        return file_parser(data, format)
 
 
 def generate_diff(file_path1=None, file_path2=None, formatter='stylish'):

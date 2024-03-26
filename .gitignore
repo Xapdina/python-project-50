@@ -7,3 +7,11 @@ tests/__pycache__/
 .coverage
 coverage.xml
 /dist/
+gendiff/__pycache__/cli.cpython-312.pyc
+gendiff/__pycache__/parser.cpython-312.pyc
+gendiff/__pycache__/diff_parser.cpython-312.pyc
+gendiff/__pycache__/utils.cpython-312.pyc
+formatter/__pycache__/__init__.cpython-312.pyc
+formatter/__pycache__/json.cpython-312.pyc
+formatter/__pycache__/plain.cpython-312.pyc
+formatter/__pycache__/stylish.cpython-312.pyc

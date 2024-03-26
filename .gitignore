@@ -4,3 +4,6 @@ gendiff/scripts/__pycache__/
 gendiff/__pycache__/__init__.cpython-312.pyc
 gendiff/__pycache__/gendiff.cpython-312.pyc
 tests/__pycache__/
+.coverage
+coverage.xml
+/dist/

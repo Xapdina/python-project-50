@@ -3,13 +3,14 @@ from gendiff.utils import SP, ADD, DEL
 
 
 def to_str(value, level):
+    indent = SP * level
     if isinstance(value, dict):
         return stylish(value, level)
     if isinstance(value, bool):
         return str(value).lower()
     if value is None:
         return 'null'
-    return str(value)
+    return f'{indent}  {str(value)}'
 
 
 def stylish(diff_dict, level=0):
@@ -39,5 +40,5 @@ def stylish(diff_dict, level=0):
             lines.append(f'{current_indent}{SP}{key}:\
                             {to_str(value, level + 1)}')
 
-    result = itertools.chain("{", lines, [current_indent + "}"])
+    result = itertools.chain("{", lines, [current_indent, "}"])
     return '\n'.join(result)

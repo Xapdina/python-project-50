@@ -5,18 +5,16 @@ import os
 
 
 def get_file_format(file_path):
-    _, extension = os.path.splitext(file_path)
+    extension = os.path.splitext(file_path)[1]
     return extension[1:]
 
 
 def get_file(file_path):
-    format = get_file_format(file_path)
     with open(file_path) as file:
-        data = file.read()
-        return file_parser(data, format)
+        return file_parser(file, get_file_format(file_path))
 
 
-def generate_diff(file_path1=None, file_path2=None, formatter='stylish'):
+def generate_diff(file_path1, file_path2, formatter='stylish'):
     data1 = get_file(file_path1)
     data2 = get_file(file_path2)
     diff = diff_parser(data1, data2)

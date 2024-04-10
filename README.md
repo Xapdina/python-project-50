@@ -39,7 +39,7 @@ formatting styles, such as "stylish," "plain," and "JSON," for presenting the co
 ### How it's work
 
 ##### [Diff-default or diff-stylish]
-[![asciicast]()]()
+[![asciicast](https://drive.google.com/file/d/1mhGkWBq_FXVlS7pZsOWA-d_4P43IFHum/view?usp=share_link.gif)](https://drive.google.com/file/d/1mhGkWBq_FXVlS7pZsOWA-d_4P43IFHum/view?usp=share_link)
 ##### [Diff-plain]
 [![asciicast]()]()
 ##### [Diff-json]

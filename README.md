@@ -39,8 +39,8 @@ formatting styles, such as "stylish," "plain," and "JSON," for presenting the co
 ### How it's work
 
 ##### [Diff-default or diff-stylish]
-[![asciicast](https://drive.google.com/file/d/1mhGkWBq_FXVlS7pZsOWA-d_4P43IFHum/view?usp=share_link.gif)](https://drive.google.com/file/d/1mhGkWBq_FXVlS7pZsOWA-d_4P43IFHum/view?usp=share_link)
+[![asciicast](https://github.com/Xapdina/TRASH/blob/main/default.gif)](https://github.com/Xapdina/TRASH/blob/main/default.gif)
 ##### [Diff-plain]
-[![asciicast]()]()
+[![asciicast](https://github.com/Xapdina/TRASH/blob/main/plain.gif)](https://github.com/Xapdina/TRASH/blob/main/plain.gif)
 ##### [Diff-json]
-[![asciicast]()]()
+[![asciicast](https://github.com/Xapdina/TRASH/blob/main/json.gif)](https://github.com/Xapdina/TRASH/blob/main/json.gif)

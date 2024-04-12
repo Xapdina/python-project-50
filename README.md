@@ -35,7 +35,7 @@ formatting styles, such as "stylish," "plain," and "JSON," for presenting the co
 
 *P.S.* *You must have [Poetry](https://python-poetry.org) installed*
 
-#### You need this command
+#### You need that commands
 ___
 Download project
 ```shell

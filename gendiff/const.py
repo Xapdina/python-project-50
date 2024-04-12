@@ -12,4 +12,4 @@ _DATA_FORMATS_VALUE = ('json', 'yaml', 'yml')
 DATA_FORMATS = (namedtuple('DataFormats',
                            map(str.upper, _DATA_FORMATS_VALUE))(*_DATA_FORMATS_VALUE))  # noqa
 
-INDENT = '    '  # noqa
+INDENT = '    '

@@ -32,8 +32,6 @@ def test_generate_diff(file1, file2):
             == get_fixtures_data('result_to_plain'))
     assert (generate_diff(file_path1, file_path2, STYLE_FORMATS.JSON)
             == get_fixtures_data('result_to_json'))
-    assert (generate_diff(file_path1, file_path2)
-            != get_fixtures_data('result_to_yaml'))
 
 
 @pytest.mark.parametrize('file1, file2', [

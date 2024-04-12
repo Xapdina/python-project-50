@@ -25,22 +25,51 @@ formatting styles, such as "stylish," "plain," and "JSON," for presenting the co
 
 #### To get started, you need to perform the following operations:
 
-| Step |                                                           Instruction                                                           |
-|:----:|:-------------------------------------------------------------------------------------------------------------------------------:|
-|  1   |                     Clone he repository to your PC:<br/>```git@github.com:Xapdina/python-project-50.git```                      |
-|  2   |                                           Go to repository<br/>`cd python-project-50`                                           |
-|  3   |                                         Installation in your PC<br/>```make install```                                          |
-|  4   |  Or you use command for install:<br/>```python3 -m pip install --user git+https://github.com/Xapdina/python-project-50.git```   |
-|  5   |                             And this for uninstall:<br/>```python3 -m pip uninstall hexlet-code```                              |
+| Step |                                                       Instruction                                                        |
+|:----:|:------------------------------------------------------------------------------------------------------------------------:|
+|  1   |                    Clone he repository to your PC:<br/>`git@github.com:Xapdina/python-project-50.git`                    |
+|  2   |                                       Go to repository<br/>`cd python-project-50`                                        |
+|  3   |                                        Installation in your PC<br/>`make install`                                        |
+|  4   | Or you use command for install:<br/>`python3 -m pip install --user git+https://github.com/Xapdina/python-project-50.git` |
+|  5   |                            And this for uninstall:<br/>`python3 -m pip uninstall hexlet-code`                            |
 
 *P.S.* *You must have [Poetry](https://python-poetry.org) installed*
 
+#### You need this command
+___
+Download project
+```shell
+git clone git@github.com:Xapdina/python-project-50.git
+```
+or
+```shell
+python3 -m pip install --user git+https://github.com/Xapdina/python-project-50.git
+```
+___
+Install project
+```shell
+make install
+```
+___
+Main commands
+```shell
+gendiff -h
+```
+```shell
+gendiff **filepath1** **filepath2** -f **style**
+```
+```shell
+python3 -m pip uninstall hexlet-code
+```
+___
 
 ### How it's work
-
-##### [Diff-default or diff-stylish]
+https://github.com/Xapdina/TRASH/blob/main/help.gif
+#### Help command
+[![asciicast](https://github.com/Xapdina/TRASH/blob/main/help.gif)](https://github.com/Xapdina/TRASH/blob/main/help.gif)
+##### Diff-default or diff-stylish
 [![asciicast](https://github.com/Xapdina/TRASH/blob/main/default.gif)](https://github.com/Xapdina/TRASH/blob/main/default.gif)
-##### [Diff-plain]
+##### Diff-plain
 [![asciicast](https://github.com/Xapdina/TRASH/blob/main/plain.gif)](https://github.com/Xapdina/TRASH/blob/main/plain.gif)
-##### [Diff-json]
+##### Diff-json
 [![asciicast](https://github.com/Xapdina/TRASH/blob/main/json.gif)](https://github.com/Xapdina/TRASH/blob/main/json.gif)

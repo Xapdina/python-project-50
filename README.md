@@ -13,6 +13,22 @@ displaying the differences between them in a convenient format. It allows identi
 added or deleted elements, as well as modifications in the values of fields. The project supports various output
 formatting styles, such as "stylish," "plain," and "JSON," for presenting the comparison results.
 
+```shell
+usage: gendiff [-h] [-f FORMAT] file_path1 file_path2
+
+Compares two configuration files and shows a difference.
+
+positional arguments:
+  file_path1
+  file_path2
+
+options:
+  -h, --help            show this help message and exit
+  -f FORMAT, --format FORMAT
+                        select format of output from [stylish, plain, json]
+
+```
+
 #### Requirements and Tools:
 
 |   Tools    | Version |

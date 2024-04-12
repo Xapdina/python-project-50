@@ -25,13 +25,13 @@ formatting styles, such as "stylish," "plain," and "JSON," for presenting the co
 
 #### To get started, you need to perform the following operations:
 
-| Step |                                                            Instruction                                                            |
-|:----:|:---------------------------------------------------------------------------------------------------------------------------------:|
-|  1   |                      Clone he repository to your PC:<br/>```git@github.com:Xapdina/python-project-50.git```                       |
-|  2   |                                   Go to repository<br/>`cd python-project-50`                                                     |
-|  3   |                                          Installation in your PC<br/>```make install```                                           |
-|  4   | Or you use command for install game:<br/>```python3 -m pip install --user git+https://github.com/Xapdina/python-project-50.git``` |
-|  5   |                            And this for uninstall game:<br/>```python3 -m pip uninstall hexlet-code```                            |
+| Step |                                                           Instruction                                                           |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------:|
+|  1   |                     Clone he repository to your PC:<br/>```git@github.com:Xapdina/python-project-50.git```                      |
+|  2   |                                           Go to repository<br/>`cd python-project-50`                                           |
+|  3   |                                         Installation in your PC<br/>```make install```                                          |
+|  4   |  Or you use command for install:<br/>```python3 -m pip install --user git+https://github.com/Xapdina/python-project-50.git```   |
+|  5   |                             And this for uninstall:<br/>```python3 -m pip uninstall hexlet-code```                              |
 
 *P.S.* *You must have [Poetry](https://python-poetry.org) installed*
 

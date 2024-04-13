@@ -2,6 +2,8 @@
 
 [![Actions Status](https://github.com/Xapdina/python-project-50/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Xapdina/python-project-50/actions)
 
+[![Actions Status](https://github.com/Xapdina/python-project-50/actions/workflows/pyci.yml/badge.svg)](https://github.com/Xapdina/python-project-50/actions)
+
 [![Maintainability](https://api.codeclimate.com/v1/badges/555598e4b0ddb481a8b8/maintainability)](https://codeclimate.com/github/Xapdina/python-project-50/maintainability)
 
 [![Test Coverage](https://api.codeclimate.com/v1/badges/555598e4b0ddb481a8b8/test_coverage)](https://codeclimate.com/github/Xapdina/python-project-50/test_coverage)
